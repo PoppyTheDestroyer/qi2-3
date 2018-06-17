@@ -642,6 +642,10 @@ font-family:lato, sans-serif;
 	margin-top: 0 !important;
   }
 
+  .sticky + .content {
+	padding-top: 102px;
+  }
+
 form {
 	margin-bottom: 100px;
 }
