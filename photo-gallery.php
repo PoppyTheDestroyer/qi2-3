@@ -35,7 +35,7 @@ $images = [
     
     <!-- Page Content -->
 	<div class="page_content">
-		<?php include 'inc/nav.php'; ?>
+		<?php include 'inc/footer.php'; ?>
 		<section class="page">
 		
 			
@@ -43,6 +43,8 @@ $images = [
 				
 				<div class="col-md-7 col-sm-7 offset-md-2 col-sm-offset-2">
 					<h2 class="page_title">Photo Gallery</h2>
+					<a class="backlink" href="/"><i class="backlink fa fa-caret-left"></i> BACK</a>
+
 					  <?php foreach($images as $cat => $ob_images){ ?>
 					  <h3 class="gallery_categ"><?= $cat ?></h3>
 						<div class="row">

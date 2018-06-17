@@ -6,7 +6,7 @@
     
     <!-- Page Content -->
 	<div class="page_content">
-		<?php include 'inc/nav.php'; ?>
+		<?php include 'inc/footer.php'; ?>
 		<section class="page">
 		
 			
@@ -14,6 +14,8 @@
 				
 				<div class="col-md-7 col-sm-7 offset-md-2 col-sm-offset-2">
 					<h2 class="page_title">Application</h2>
+					<a class="backlink" href="/"><i class="backlink fa fa-caret-left"></i> BACK</a>
+
 					<h3>End the need to idle machines and workers<br/>Keep API thread inspection at point of production 
 					</h3>
 					<br/>

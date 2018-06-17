@@ -4,7 +4,7 @@
     
     <!-- Page Content -->
 	<div class="page_content">
-		<?php include 'inc/nav.php'; ?>
+		<?php include 'inc/footer.php'; ?>
 		<section class="page">
 		
 			
@@ -12,7 +12,7 @@
 				
 				<div class="col-md-7 col-sm-7 offset-md-2 col-sm-offset-2">
 					<h2 class="page_title">TECHNICAL SPECIFICATIONS</h2>
-					
+					<a class="backlink" href="/"><i class="backlink fa fa-caret-left"></i> BACK</a>
 					<ul class="nav nav-tabs">
 					  <li class="nav-item "><a class="nav-link active" data-toggle="tab" href="#measure">CAPABILITIES </a></li>
 					  <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#dspecs">SYSTEM REQUIREMENTS </a></li>
