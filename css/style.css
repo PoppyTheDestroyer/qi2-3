@@ -99,6 +99,7 @@ nav.navbar {
 	background-size: cover;
 	position: relative;
 	padding: 0;
+	z-index: -2;
 }
 .fix_content {
 	position: absolute;
@@ -228,7 +229,6 @@ section h2 {
 	left: 0;
 	right: 0;
 	width: 100%;
-	z-index: -1;
 }
 .arrow_next a {
 	background: url('../images/arrow-yellow.png');
@@ -643,5 +643,5 @@ font-family:lato, sans-serif;
   }
 
 form {
-	margin-bottom: 90px;
+	margin-bottom: 100px;
 }
