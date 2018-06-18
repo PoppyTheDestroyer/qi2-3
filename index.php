@@ -70,7 +70,7 @@ include 'inc/home_signup.php';
 ?>
 					</div>
 				</div>
-				<div id="myFooter">
+				<div id="footerFooter">
 					<?php include "inc/footer.php";?>
 				</div>
 			</div>
@@ -87,6 +87,12 @@ include 'inc/home_signup.php';
 
 						<p>hardware and software engineered for ease of use by any operator. See the capabilities and System requirements of the versatile   lotis QX-C thread profiler </p>
 					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="button-section">
+<a href="specs.php" class="btn btn-home learn_button">LEARN MORE</a>
+						</div>
+
 				</div>
 			</div>
 		</section>
@@ -297,9 +303,13 @@ var sticky = footer.offsetTop;
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
+	footer.classList.remove("footer");
    footer.classList.add("sticky");
+   console.log(footer.classList);
   } else {
+	footer.classList.add("footer");
    footer.classList.remove("sticky");
+   console.log(footer.classList);
   }
 }
 	</script>
