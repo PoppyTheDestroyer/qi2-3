@@ -666,7 +666,7 @@ header {
   top: 0;
   width: 100% !important;
   margin-top: 0 !important;
-  z-index: 99;
+  padding-right: 80px;
 }
 
 .sticky + .content {
@@ -753,4 +753,17 @@ form {
 
 .navbar {
 min-width: 100% !important;
+padding-right: 100px;
 }
+
+.foot {
+	position: fixed;
+    bottom: 0;
+	width: 100% !important;
+	margin: 0 !important;
+}
+
+.navbar {
+	min-width: 100% !important;
+}
+

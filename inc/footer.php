@@ -1,10 +1,9 @@
-<header>
-<div id="myFooter">
+<div id="myFooter" class="foot">
 			<nav class="navbar navbar-expand-md" role="navigation">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<a class="navbar-brand" href="/">
-					<img src="images/LOTISLOGO.png" class="logo" />
+					<img src="images/LOTISLOGO.png" class="logo logo2" />
 					</a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
 						<i class="fa fa-bars"></i>
@@ -49,4 +48,3 @@
 			</nav>
 
 		</div>
-		</header>
