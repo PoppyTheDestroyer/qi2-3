@@ -1,4 +1,4 @@
-<div id="myFooter" class="foot">
+<div id="myFooter">
 			<nav class="navbar navbar-expand-md" role="navigation">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
