@@ -13,24 +13,36 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="nav-collapse collapse navbar-collapse" id="navbar-collapse-2">
 					<ul class="nav navbar-nav navbar-right"> 
+						<div>
 						<li>
 							<a href="/">Home</a>
 						</li>
+</div>
+<div>
 						<li>
 							<a href="application.php">APPLICATION</a>
 						</li>
+</div>
+<div>
 						<li>
 							<a href="specs.php">Technical Facts</a>
 						</li>
+</div>
+<div>
 						<li>
 							<a href="faq.php">FAQ</a>
 						</li>
+</div>
+<div>
 						<li>
 							<a href="photo-gallery.php">Photo Gallery</a>
 						</li>
+</div>
+<div>
 						<li>
 							<a href="#">Video Gallery</a>
 						</li>
+</div>
 					</ul>
 				</div>
 				<!-- /.navbar-collapse -->

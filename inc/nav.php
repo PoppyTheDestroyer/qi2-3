@@ -18,8 +18,8 @@
 							<a target="_blank" class="droplink" href="http://www.qi2.com/company">Company</a>
 							<div class="dropdown-content">
 								<ul>
-								<li><a target="_blank" href="http://www.qi2.com/company/history-and-future/"></li>
-								History & Future</a>
+								<li><a target="_blank" href="http://www.qi2.com/company/history-and-future/">
+								History & Future</a></li>
 								<li><a target="_blank" href="http://www.qi2.com/company/partners/">Partners</a></li>
 								<li><a target="_blank" href="http://www.qi2.com/company/jobs-opportunities/">Jobs & Opportunities</a></li>
 </ul>
@@ -34,6 +34,14 @@
 <div class="dropdown">
 						<li>
 							<a target="_blank" class="droplink" href="http://www.qi2.com/products-and-services/">Products and Services</a>
+							<div class="dropdown-content">
+								<ul>
+								<li><a target="_blank" href="http://www.qi2.com/products-and-services/instruments/">Instruments
+								</a></li>
+								<li><a target="_blank" href="http://www.qi2.com/products-and-services/materials-and-manufacturing/">Materials & Manufacturing</a></li>
+								<li><a target="_blank" href="http://www.qi2.com/products-and-services/patented-products/">Patented Products</a></li>
+</ul>
+							</div>
 						</li>
 </div>
 
