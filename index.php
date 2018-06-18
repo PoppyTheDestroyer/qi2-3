@@ -70,7 +70,7 @@ include 'inc/home_signup.php';
 ?>
 					</div>
 				</div>
-				<div id="footerFooter">
+				<div class="container-fluid" id="footerFooter">
 					<?php include "inc/footer.php";?>
 				</div>
 			</div>
@@ -303,7 +303,8 @@ var sticky = footer.offsetTop;
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
   if (window.pageYOffset >= sticky) {
-	footer.classList.remove("footer", "foot");
+	footer.classList.remove("footer");
+	footer.classList.remove("foot");
    footer.classList.add("sticky");
   } else {
 	footer.classList.add("footer");
