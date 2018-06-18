@@ -79,6 +79,24 @@ nav.navbar {
   text-decoration: none;
   border-bottom: 5px solid #df2025;
 }
+
+.navbar-nav > li > a {
+	color: #908e8e;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	font-family: proxima-nova, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 25px 10px;
+  }
+  .nav > li > a:focus,
+  .nav > li > a:hover {
+	background-color: transparent;
+	text-decoration: none;
+	border-bottom: 5px solid #df2025;
+  }
 .navbar-toggle {
   position: relative;
   float: right;
