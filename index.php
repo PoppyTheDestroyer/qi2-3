@@ -305,11 +305,9 @@ function myFunction() {
   if (window.pageYOffset >= sticky) {
 	footer.classList.remove("footer");
    footer.classList.add("sticky");
-   console.log(footer.classList);
   } else {
 	footer.classList.add("footer");
    footer.classList.remove("sticky");
-   console.log(footer.classList);
   }
 }
 	</script>
