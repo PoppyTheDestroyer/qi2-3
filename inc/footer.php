@@ -1,6 +1,6 @@
 <header>
 <div id="myFooter">
-			<nav class="navbar navbar-expand-md footer" role="navigation"> 
+			<nav class="navbar navbar-expand-md footer" role="navigation">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<a class="navbar-brand" href="/">
@@ -8,11 +8,11 @@
 					</a>
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
 						<i class="fa fa-bars"></i>
-					</button> 
+					</button>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="nav-collapse collapse navbar-collapse" id="navbar-collapse-2">
-					<ul class="nav navbar-nav navbar-right"> 
+					<ul class="nav navbar-nav navbar-right">
 						<div>
 						<li>
 							<a href="/">Home</a>
@@ -47,8 +47,6 @@
 				</div>
 				<!-- /.navbar-collapse -->
 			</nav>
-			
+
 		</div>
 		</header>
-
-		
