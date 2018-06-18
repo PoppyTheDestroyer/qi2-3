@@ -19,7 +19,7 @@
 							<div class="col-md-2 col-sm-6">
 
 							</div>
-							<div class="col-md-4 col-sm-6 offset-md-1">
+							<div class="col-md-4 col-sm-6">
 							  <h2 class="mob_center">THE LOTIS ® QCX THREAD PROFILER TRANSFORMS API ARTICLE THREAD INSPECTION INTO A LESS THAN 60 SECOND PROCESS! </h2>
 							</div>
 
@@ -65,10 +65,12 @@
 
 					<div class="col-md-4 offset-md-8 col-sm-4 col-sm-offset-8">
 
-					
+					<?php
+include 'inc/home_signup.php';
+?>
 					</div>
 				</div>
-				<div id="footerFooter" class="foot">
+				<div id="footerFooter">
 					<?php include "inc/footer.php";?>
 				</div>
 			</div>
