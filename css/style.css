@@ -661,17 +661,27 @@ header {
   min-width: 100% !important;
   margin-left: 0 !important;
   position: fixed;
-  right: 85px;
     bottom: 0;
   padding: 0 200px !important;
 }
 
 .sticky {
   position: fixed;
-  right: 85px;
   top: 0;
   width: 100% !important;
   margin-top: 0 !important;
+}
+
+@media (min-width: 768px) {
+  .sticky {
+    right: 85px;
+  }
+  .footer {
+    right: 85px;
+  }
+  .foot {
+    right: 85px;
+  }
 }
 
 .sticky + .content {
@@ -752,7 +762,6 @@ float: left;
 
 .foot {
   position: fixed;
-  right: 90px;
     bottom: 0;
 	width: 100% !important;
   margin: 0 !important;
